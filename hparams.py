@@ -116,17 +116,17 @@ class hparams:
             hop_length = [512, 128]
 
     class files:
-        # train_speaker = './data/train/DAPS'
-        # valid_speaker = './data/test/DAPS'
-        # train_ir = './data/train/IRs'
-        # valid_ir = './data/test/IRs'
-        # train_noise = './data/train/noise'
-        # valid_noise = './data/test/noise'
+        train_speaker = './data/train/DAPS'
+        valid_speaker = './data/test/DAPS'
+        train_ir = './data/train/IRs'
+        valid_ir = './data/test/IRs'
+        train_noise = './data/train/noise'
+        valid_noise = './data/test/noise'
         
-        # For subsampled Test Run
-        train_speaker = 'data/sub/train/DAPS'
-        valid_speaker = 'data/sub/test/DAPS'
-        train_ir = 'data/sub/train/IRs'
-        valid_ir = 'data/sub/test/IRs'
-        train_noise = 'data/sub/train/noise'
-        valid_noise = 'data/sub/test/noise'
+        ### For subsampled Test Run
+        # train_speaker = 'data/sub/train/DAPS'
+        # valid_speaker = 'data/sub/test/DAPS'
+        # train_ir = 'data/sub/train/IRs'
+        # valid_ir = 'data/sub/test/IRs'
+        # train_noise = 'data/sub/train/noise'
+        # valid_noise = 'data/sub/test/noise'
